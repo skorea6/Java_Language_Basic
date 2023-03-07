@@ -11,22 +11,20 @@ public class BlackBox {
     static boolean canAutoReport = false; // 클래스 변수 (자동 신고기능)
 
     BlackBox(){
-//        this();
         // 자동 호출 메소드
-        System.out.println("기본 생성자 호출");
-        this.serialNumber = ++counter;
-        System.out.println(this.serialNumber + " 새로운 시리얼넘버 발급");
+//        System.out.println("기본 생성자 호출");
+//        this.serialNumber = ++counter;
+//        System.out.println(this.serialNumber + " 새로운 시리얼넘버 발급");
     }
 
     BlackBox(String modelName, String resolution, int price, String color){
-        this();
-
-        System.out.println("사용자 정의 생성자 호출");
-        this.modelName = modelName;
-        this.resolution = resolution;
-        this.price = price;
-        this.color = color;
-//        this.color = color + "기본 색상으로 호출 되었습니다.";
+//        this();
+//
+//        System.out.println("사용자 정의 생성자 호출");
+//        this.modelName = modelName;
+//        this.resolution = resolution;
+//        this.price = price;
+//        this.color = color;
     }
 
     void autoReport(){
