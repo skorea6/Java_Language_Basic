@@ -71,4 +71,16 @@ public class BlackBox {
     void appendModelName(String modelName) {
         this.modelName += modelName;
     }
+
+    // Getter & Setter
+    String getModelName(){
+        return modelName;
+    }
+
+    void setModelName(){
+        if(resolution == null){
+
+        }
+//        return resolution;
+    }
 }
