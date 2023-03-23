@@ -13,6 +13,6 @@ public class _13_MethodOverriding {
 
         camera.showMainFeature();
         factoryCam.showMainFeature();
-        speedCam.showMainFeature();
+        speedCam.showMainFeature(); // 스피드카메라의 특징
     }
 }
