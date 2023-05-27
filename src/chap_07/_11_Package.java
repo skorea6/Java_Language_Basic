@@ -23,7 +23,7 @@ public class _11_Package {
         System.out.println(random.nextInt(45) + 1);
 
         // nextInt(45) : 0이상 45 미만의 수
-        // nextInt(45) : 1이상 46 미만의 수 = 1 이상 45 이하의 수
+        // nextInt(45) + 1 : 1이상 46 미만의 수 = 1 이상 45 이하의 수
 
 
     }
