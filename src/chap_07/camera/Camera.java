@@ -7,7 +7,7 @@ public class Camera { // 부모 클래스
         this("카메라");
     }
 
-    protected Camera(String camera){
+    protected Camera(String camera){ // protected: 같은 패키지내에서, 다른 패키지인 경우 자식 클래스에서 접근 가능
         this.name = camera;
     }
 
